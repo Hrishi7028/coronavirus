@@ -1,0 +1,169 @@
+  
+html{
+    scroll-behavior:smooth;
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    
+}
+
+.row{
+    margin-left:0 !important;
+    margin-right:0 !important;
+}
+
+.main-header{
+    height:450px;
+    width:100%;
+}
+
+#myBtn{
+    display:none;
+    position:fixed;
+    bottom: 93px;
+    right: 106px;
+    z-index:99;
+    border:none;
+    outline:none;
+    color:black;
+    cursor:pointer;
+    padding:10px;
+    background-color:#a5a4a4;
+    border-radius:10px;
+}
+.head{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing:2px;
+    word-spacing:4px;
+}
+.updates{
+    font-family: 'Oswald', sans-serif;
+    
+}
+.about{
+    font-family: 'Lobster', cursive;
+    letter-spacing: 4px;
+    word-spacing: 7px
+}
+@media(max-width:960px){
+    .ml-5{
+        margin-left:0!important;
+    }
+    .high{
+        height: 445px;
+    }
+
+}
+
+@media(max-width:767px){
+    .about{
+        margin-top: 64px;
+    }
+    .head{
+        text-align:center;
+    }
+        .ml-5{
+            position: relative;
+            bottom: 33px;
+            left: 22px;
+        }
+}
+
+@media(max-width:716px){
+    .about_img{
+        position: relative;
+        top: -74px;
+        left: 149px;
+    }
+}
+
+@media(max-width:716px){
+    .pad{
+        padding-top:0!important;
+    }
+    .images{
+        margin-top:0px!important;
+    }
+    .about{
+        margin-top:0px;
+        font-size:32px;
+    }
+    .sub_section{
+        padding-top:0px!important;
+    }
+    .section_header{
+        margin-bottom:0px!important;
+    }
+    .comman{
+        margin:0 25px!important;
+        
+    }
+    .high{
+        margin-top:40px!important;
+    }
+
+}
+
+@media(max-width:716px){
+    .updates{
+        margin-top: 58px;
+        font-size:22px;
+    }
+}
+
+
+@media(max-width:491px){
+    .updates{
+        margin:120px auto;
+    }
+    .updates h1{
+        font-size:22px;
+    }
+    .corinfo{
+        padding-top:0px!important;
+    }
+    .section_header{
+        margin-bottom:0px!important;
+    }
+}
+@media(max-width:397px){
+    .prev{
+        padding-left:0px!important;
+        padding-right:0px!important;
+    }
+}
+
+@media(max-width:582px)
+{
+    #myBtn{
+
+        position: fixed;
+        bottom: 70px;
+        right: 71px;
+        z-index: 99;
+        border: none;
+        outline: none;
+        color: black;
+        cursor: pointer;
+        padding: 10px;
+        background-color: #a5a4a4;
+        border-radius: 10px;
+    }
+    .head{
+        font-size: 46px;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width:399px){
+    .head{
+        font-size:22px!important;
+    }
+}
+
+
+
+
+

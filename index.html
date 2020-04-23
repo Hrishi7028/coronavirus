@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Girassol&family=Lobster&family=Oswald:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="" href="./pages/form.php">
+</head>
+<body onload='fetch()'>
+<!-- ------------------------------Navigation bar ----------------------------------------->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand pl-5" href="#">COVID-19</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto pr-5">
+      <li class="nav-item active">
+        <a class="nav-link" href="./">Home <span class="sr-only">(current)</span></a>
+      </li>
+      
+      
+      <li class="nav-item">
+        <a class="nav-link" href="#aboutid">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#symid">Symptoms</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!------------------------------------Main Content-------------------------------------- -->
+<div class='main-header'>
+    <div class='row h-100 w-100'>
+        <div class='col-lg-5 col-md-5 col-12 order-lg-1 order-2'>
+        <div class='leftside w-100 h-100 d-flex justify-content-center align-items-center'>
+            <img src="./Images/corona.jpg" alt="Corona" width=400 height=330  class='img-fluid'>
+        </div>
+        </div>
+        <div class='col-lg-7 col-md-7 col-12 order-lg-2 order-1'>
+        <div class='rightside text-capitalize w-100 h-100 d-flex justify-content-center  align-items-center'>
+            <h1 class='display-4 head'>Stay Safe & let's fight Together against Coro</span>na<br> #IndiaFightsCorona COVID-19</h1>
+        </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------------------------corona_updates--------------------------------------------->
+
+<section class='corona_updates container-fluid'>
+    <div class='mb-3 updates'>
+        <h1 class='text-center text-uppercase about'>covid-19 updates</h1>
+        <hr  class='w-25 mx-auto pt-5'>
+    </div>
+    <div class='table-responsive'>
+
+    <table class='table-bordered table-striped text-center table' id='tbval'>
+        <tr>
+            <th>Country</th>
+            <th>Total Confirmed Cases</th>
+            <th>Total Recovered</th>
+            <th>Total Death</th>
+            <th>New Confirmed</th>
+            <th>New Recovered</th>
+            <th>New Death</th>
+        </tr>
+    </table>
+    </div>
+</section>
+
+<!-------------------------------Information About corona---------------------------------->
+
+<div class='container-fluid sub_section pt-5 pb-5' id='aboutid'>
+
+    <div class='section_header text-center mb-1 mt-2'>
+        <h1 class='about'>ABOUT COVID-19</h1>
+        <hr  class='w-25 mx-auto pt-5'>
+    </div>
+    <div class=corinfo>
+    <div class='row pt-2 corinfo'>
+        <div class='col-lg-12 col-md-12 col-12'>
+            <h2>What is COVID-19(Corona-Virus)??</h2>
+            <p>Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment.  Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness.</p>
+            <p>At this time, there are no specific vaccines or treatments for COVID-19. However, there are many ongoing clinical trials evaluating potential treatments. WHO will continue to provide updated information as soon as clinical findings become available.</p>
+        </div>
+        <div class="col-lg-10 col-md-10 col-12">
+                <h3>Dos</h3>
+                <p>
+                    <ul class='ml-3'>
+                        <li>Wash your hands regularly for 20 seconds, with soap and water or alcohol-based hand rub</li>
+                        <li>Cover your nose and mouth with a disposable tissue or flexed elbow when you cough or sneeze
+                        </li>
+                        <li>Avoid close contact (1 meter or 3 feet) with people who are unwell</li>
+                        <li>Stay home and self-isolate from others in the household if you feel unwell</li>
+                    </ul>
+                </p>
+
+                <h3>Don'ts</h3>
+                <p>
+                    <ul class='ml-3'>
+                        <li> 
+                            Touch your eyes, nose, or mouth if your hands are not clean
+                        </li>
+                </p>
+
+            </div>
+
+    </div>
+    </div>
+</div>
+
+<!---------------------------------Symtoms corona------------------------------------------->
+
+<div class='container-fluid sub_section pt-5 pb-5' id='symid'>
+    <div class='section_header text-center mb-5 mt-4'>
+        <h1 class='about'>COVID-19 Symptoms</h1>
+        <hr  class='w-25 mx-auto pt-5 pad'>
+    </div>
+    <div class='container'>
+        <div class='row text-center'>
+            <div class='col-lg-4 col-md-4 col-12 mt-5 images '>
+                <figure>
+                    <img src="./Images/cold.png" alt="" class='img-fluid' width=175 height=180>
+                    <figcaption>Cold</figcaption>
+                </figure>
+            </div>
+            <div class='col-lg-4 col-md-4 col=12 mt-5'>
+                <figure>
+                    <img src="./Images/cough.jpg" alt="" class='img-fluid' width=200>
+                    <figcaption>Cough</figcaption>
+                </figure>
+            </div>
+            <div class='col-lg-4 col-md-4 col=12 mt-5'>
+                <figure>
+                    <img src="./Images/FEVER1.jpg" alt="" class='img-fluid' width=120 height=120>
+                    <figcaption>Fever</figcaption>
+                </figure>
+            </div>
+            <div class='col-lg-4 col-md-4 col=12 mt-5'>
+                <figure>
+                    <img src="./Images/brad1.jfif" alt="" class='img-fluid' width=180 height=180>
+                    <figcaption>Breathing problem</figcaption>
+                </figure>
+            </div>
+            <div class='col-lg-4 col-md-4 col=12 mt-5'>
+                <figure>
+                    <img src='./Images/runny1.jpg' alt=" class='img-fluid'"width=200 height=230>
+                    <figcaption>Runny Nose</figcaption>
+                </figure>
+            </div>
+            <div class='col-lg-4 col-md-4 col=12 mt-5'>
+                <figure>
+                    <img src="./Images/he.webp" alt="" class='img-fluid' width=200 height=230>
+                    <figcaption>Headach</figcaption>
+                </figure>
+            </div>
+                
+            
+        </div>
+    </div>
+</div>
+
+
+<!-- ---------------------------------FeedBack form------------------------------------- -->
+
+<div class='container-fluid sub_section pt-5 pb-5' id='contact'>
+    <div class='section_header text-center mb-5 mt-1'>
+        <h1 class='about'>Feedback</h1>
+        <hr  class='w-25 mx-auto pt-4'>
+    </div>
+    <div class='container'>
+    <div class='row'>
+    <div class='col-lg-8 offset-lg-2 col-12'>
+    <form>
+    <div class="form-group">
+    <label for="name">Name:</label>
+    <input type="text" class="form-control" id="name" placeholder='Enter Your name' name='names'>
+  </div>
+
+  <div class="form-group">
+    <label for="email">Email address</label>
+    <input type="email" class="form-control" id="email" placeholder="name@example.com" name = 'email'>
+  </div>
+
+  <div class="form-group">
+    <label for="phone">Mobile No:</label>
+    <input type="phone" name ='phone' class="form-control" id="phone" placeholder='Enter Your Mobile Number'>
+  </div>    
+
+  <div class="form-group">
+    <label for="more">How's it</label>
+    <textarea class="form-control" id="more" rows="3" placeholder='Do you have any suuggestions to improve our website' name = 'more'></textarea>
+  </div>
+    <button type="submit" class="btn btn-primary" name = 'submit'>Submit</button>
+  </div>
+</form>
+</div>
+</div>
+    </div>
+</div>
+
+<!-- -----------------------------------Arrow_up----------------------------------------- -->
+
+<div class='container scrolltop float-right pr-5'>
+    <i class='fa fa-arrow-up' onclick='topFunction()' id='myBtn'> </i>
+
+</div>
+
+<!-- Footer -->
+<footer class=" font-small blue bg-primary">
+   
+    <!-- Copyright -->
+  <div class="footer-copyright text-center py-2">
+    © 2020 Copyright by Rushikesh
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+<!--------------------------------------- Script----------------------------------------- -->
+
+<script type='text/javascript'>
+    myButton = document.getElementById('myBtn');
+    window.onscroll = function(){
+        scrollFunction();
+    }
+    function scrollFunction(){
+        if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+            myButton.style.display = 'block';           
+        } else {
+            myButton.style.display = 'none'; 
+        }
+    }
+    function topFunction(){
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
+// ---------------------------API Fetch-------------------------------------
+
+    function fetch(){
+        $.get('https://api.covid19api.com/summary',function(data){
+            // console.log(data['Countries'].length);
+            let tbval = document.getElementById('tbval');
+            for (let i = 1; i < (data['Countries'].length); i++) {
+                let x = tbval.insertRow();
+
+                x.insertCell(0); 
+                tbval.rows[i].cells[0].innerHTML = data['Countries'][i-1]['Country'];
+                tbval.rows[i].cells[0].style.background = '#7a4a91';
+                tbval.rows[i].cells[0].style.color = '#fff';
+
+                x.insertCell(1); 
+                tbval.rows[i].cells[1].innerHTML = data['Countries'][i-1]['TotalConfirmed'];
+                tbval.rows[i].cells[1].style.background = '#7a4a91';
+                tbval.rows[i].cells[1].style.color = '#fff';
+
+                x.insertCell(2); 
+                tbval.rows[i].cells[2].innerHTML = data['Countries'][i-1]['TotalRecovered'];
+                tbval.rows[i].cells[2].style.background = '#7a4a91';
+                tbval.rows[i].cells[2].style.color = '#fff';
+
+                x.insertCell(3); 
+                tbval.rows[i].cells[3].innerHTML = data['Countries'][i-1]['TotalDeaths'];
+                tbval.rows[i].cells[3].style.background = '#7a4a91';
+                tbval.rows[i].cells[3].style.color = '#fff';
+
+                x.insertCell(4); 
+                tbval.rows[i].cells[4].innerHTML = data['Countries'][i-1]['NewConfirmed'];
+                tbval.rows[i].cells[4].style.background = '#7a4a91';
+                tbval.rows[i].cells[4].style.color = '#fff';
+
+                x.insertCell(5); 
+                tbval.rows[i].cells[5].innerHTML = data['Countries'][i-1]['NewRecovered'];
+                tbval.rows[i].cells[5].style.background = '#7a4a91';
+                tbval.rows[i].cells[5].style.color = '#fff';
+
+                x.insertCell(6); 
+                tbval.rows[i].cells[6].innerHTML = data['Countries'][i-1]['NewDeaths'];
+                tbval.rows[i].cells[6].style.background = '#7a4a91';
+                tbval.rows[i].cells[6].style.color = '#fff';
+            }
+        });
+
+    }
+
+</script>
+
+</body>
+
+
+
+
+</html>
+
+
